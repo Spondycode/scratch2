@@ -5,6 +5,7 @@ Django settings for a_core project.
 
 from pathlib import Path
 import environ
+
 env = environ.Env(
     # set casting, default value
     DEBUG=(bool, False))
@@ -36,6 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    
+    "sim",
 ]
 
 MIDDLEWARE = [
