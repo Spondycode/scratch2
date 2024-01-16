@@ -27,6 +27,9 @@ DEBUG = env("DEBUG")
 
 ALLOWED_HOSTS = []
 
+# Application definition - ASGI
+ASGI_APPLICATION = 'core.asgi.application'
+
 
 # Application definition
 
